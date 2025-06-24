@@ -1,1 +1,30 @@
-@import "tailwindcss"
+@import "tailwindcss";
+
+.Lightred{
+    color:hsl(0, 100%, 67%);
+} 
+.Orangeyyellow{
+    color:hsl(39, 100%, 56%);
+} 
+.Greenteal{
+    color:hsl(166, 100%, 37%);
+} 
+.Cobaltblue{
+    color:hsl(234, 85%, 45%);
+} 
+
+.textlanvender{
+    color:hsl(241, 100%, 89%);
+}
+.bgpale{
+    background-color:hsl(221, 100%, 96%);
+}
+.textpale{
+    color:hsl(221, 100%, 96%);
+}
+.textgray{
+    color: hsl(224, 30%, 27%);
+}
+.bggray{
+    background-color: hsl(224, 30%, 27%);
+}

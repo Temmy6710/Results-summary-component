@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Results summary component</title>
+</head>
+<body class="tracking-tighter font-['Hanken_Grotesk']  flex items-center justify-center min-h-screen antialiased bgpale">
+    <div class="flex flex-col md:flex-row rounded-4xl shadow-lg  overflow-hidden"> <!--flex flex-col md:flex-row-->
+        <div class=" -mr-10 z-10 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] w-7/12 rounded-4xl text-center textlanvender py-10">
+            <h1 class="text-2xl font-semibold pb-3">Your Result</h1>
+            <div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] w-fit py-15 px-17 m-5 mx-auto rounded-full flex flex-col items-center justify-center">
+                <h1 class="text-white text-6xl font-bold">76</h1>
+                <p class="text-lg">0f 100</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <h1 class="text-white text-3xl font-semibold m-4">Great</h1>
+                <p class="text-lg w-2/3">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+        </div>
+        <div class="z-0 textgray bg-white w-7/12 rounded-br-4xl rounded-tr-4xl textlanvender p-10 ">
+            <div class=" w-3/4 mx-auto font-semibold">
+                <h1 class="text-2xl mb-10">Summary</h1>
+                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
+                    <div class="flex Lightred">
+                        <img src="./assets/images/icon-reaction.svg" alt="">
+                        <p class="font-normal">Reaction</p>
+                    </div>
+                    <div class="flex">
+                        <p>80&nbsp&nbsp</p>
+                        <p class="textlanvender"> / &nbsp100</p>
+                    </div>
+                </div>
+                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
+                    <div class="flex Orangeyyellow">
+                        <img src="./assets/images/icon-memory.svg" alt="">
+                        <p class="font-normal">Memory</p>
+                    </div>
+                    <div class="flex">
+                        <p>92&nbsp&nbsp</p>
+                        <p class="textlanvender"> / &nbsp100</p>
+                    </div>
+                </div>
+                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
+                    <div class="flex Greenteal">
+                        <img src="./assets/images/icon-verbal.svg" alt="">
+                        <p class="font-normal">Verbal</p>
+                    </div>
+                    <div class="flex">
+                        <p>61&nbsp&nbsp</p>
+                        <p class="textlanvender"> / &nbsp100</p>
+                    </div>
+                </div>
+                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
+                    <div class="flex Cobaltblue">
+                        <img src="./assets/images/icon-visual.svg" alt="">
+                        <p class="font-normal">visual</p>
+                    </div>
+                    <div class="flex">
+                        <p>73&nbsp&nbsp</p>
+                        <p class="textlanvender"> / &nbsp100</p>
+                    </div>
+                </div>
+                <button class="w-full textpale bggray rounded-xl">Continue</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
