@@ -8,22 +8,22 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Results summary component</title>
 </head>
-<body class="tracking-tighter font-['Hanken_Grotesk']  flex items-center justify-center min-h-screen antialiased bgpale">
-    <div class="flex flex-col md:flex-row rounded-4xl shadow-lg  overflow-hidden"> <!--flex flex-col md:flex-row-->
-        <div class=" -mr-9 z-10 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] w-7/12 rounded-4xl text-center textlanvender py-10">
+<body class="tracking-tighter font-['Hanken_Grotesk'] flex items-center justify-center min-h-screen antialiased bgpale">
+    <div class="flex flex-col lg:flex-row lg:rounded-4xl shadow-xl overflow-hidden w-3/5 lg:w-7/12 ">
+        <div class=" -mb-9 lg:-mb-0 lg:-mr-9 z-10 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)]  lg:w-7/12  rounded-b-4xl lg:rounded-r-4xl text-center textlanvender pt-5 pb-8 lg:py-10">
             <h1 class="text-2xl font-semibold pb-3">Your Result</h1>
-            <div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] w-fit py-15 px-17 m-5 mx-auto rounded-full flex flex-col items-center justify-center">
+            <div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] w-fit py-8 px-10 lg:py-15 lg:px-17 mx-auto lg:m-5 lg:mx-auto rounded-full flex flex-col items-center justify-center">
                 <h1 class="text-white text-6xl font-bold">76</h1>
                 <p class="text-lg">0f 100</p>
             </div>
             <div class="flex flex-col items-center">
-                <h1 class="text-white text-3xl font-semibold m-4">Great</h1>
-                <p class="text-lg w-3/5">You scored higher than 65% of the people who have taken these tests.</p>
+                <h1 class="text-white text-3xl font-semibold m-2 lg:m-4">Great</h1>
+                <p class="text-lg w-3/4 lg:w-3/5">You scored higher than 65% of the people who have taken these tests.</p>
             </div>
         </div>
-        <div class="z-0 textgray bg-white w-7/12 rounded-br-4xl rounded-tr-4xl p-10 pl-15">
-            <div class=" w-11/12 mx-auto font-semibold">
-                <h1 class="text-2xl mb-10">Summary</h1>
+        <div class="z-0 textgray bg-white lg:w-7/12 lg:rounded-r-4xl p-10 lg:pl-15">
+            <div class=" md:w-11/12 mx-auto font-semibold">
+                <h1 class="text-2xl mt-3 lg:mt-0 mb-10">Summary</h1>
                 <div class="text-xl">
                     <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-6">
                         <div class="flex Lightred">
