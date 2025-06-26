@@ -10,7 +10,7 @@
 </head>
 <body class="tracking-tighter font-['Hanken_Grotesk']  flex items-center justify-center min-h-screen antialiased bgpale">
     <div class="flex flex-col md:flex-row rounded-4xl shadow-lg  overflow-hidden"> <!--flex flex-col md:flex-row-->
-        <div class=" -mr-10 z-10 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] w-7/12 rounded-4xl text-center textlanvender py-10">
+        <div class=" -mr-9 z-10 bg-gradient-to-b from-[hsl(252,100%,67%)] to-[hsl(241,81%,54%)] w-7/12 rounded-4xl text-center textlanvender py-10">
             <h1 class="text-2xl font-semibold pb-3">Your Result</h1>
             <div class="bg-gradient-to-b from-[hsla(256,72%,46%,1)] to-[hsla(241,72%,46%,0)] w-fit py-15 px-17 m-5 mx-auto rounded-full flex flex-col items-center justify-center">
                 <h1 class="text-white text-6xl font-bold">76</h1>
@@ -18,53 +18,56 @@
             </div>
             <div class="flex flex-col items-center">
                 <h1 class="text-white text-3xl font-semibold m-4">Great</h1>
-                <p class="text-lg w-2/3">You scored higher than 65% of the people who have taken these tests.</p>
+                <p class="text-lg w-3/5">You scored higher than 65% of the people who have taken these tests.</p>
             </div>
         </div>
-        <div class="z-0 textgray bg-white w-7/12 rounded-br-4xl rounded-tr-4xl textlanvender p-10 ">
-            <div class=" w-3/4 mx-auto font-semibold">
+        <div class="z-0 textgray bg-white w-7/12 rounded-br-4xl rounded-tr-4xl p-10 pl-15">
+            <div class=" w-11/12 mx-auto font-semibold">
                 <h1 class="text-2xl mb-10">Summary</h1>
-                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
-                    <div class="flex Lightred">
-                        <img src="./assets/images/icon-reaction.svg" alt="">
-                        <p class="font-normal">Reaction</p>
+                <div class="text-xl">
+                    <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-6">
+                        <div class="flex Lightred">
+                            <img src="./assets/images/icon-reaction.svg" class="pr-3" alt="">
+                            <p class="font-medium">Reaction</p>
+                        </div>
+                        <div class="flex">
+                            <p>80&nbsp&nbsp</p>
+                            <p class="textlightgray "> / &nbsp100</p>
+                        </div>
                     </div>
-                    <div class="flex">
-                        <p>80&nbsp&nbsp</p>
-                        <p class="textlanvender"> / &nbsp100</p>
+                    <div class="flex justify-between bg-[#ffb11f10] p-3 rounded-lg mb-6">
+                        <div class="flex Orangeyyellow">
+                            <img src="./assets/images/icon-memory.svg" class="pr-3" alt="">
+                            <p class="font-medium">Memory</p>
+                        </div>
+                        <div class="flex">
+                            <p>92&nbsp&nbsp</p>
+                            <p class="textlightgray"> / &nbsp100</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between bg-[#00bd910f] p-3 rounded-lg mb-6">
+                        <div class="flex Greenteal">
+                            <img src="./assets/images/icon-verbal.svg" class="pr-3" alt="">
+                            <p class="font-medium">Verbal</p>
+                        </div>
+                        <div class="flex">
+                            <p>61&nbsp&nbsp</p>
+                            <p class="textlightgray"> / &nbsp100</p>
+                        </div>
+                    </div>
+                    <div class="flex justify-between bg-[#1124d40a] p-3 rounded-lg mb-6">
+                        <div class="flex Cobaltblue">
+                            <img src="./assets/images/icon-visual.svg" class="pr-3" alt="">
+                            <p class="font-medium">visual</p>
+                        </div>
+                        <div class="flex">
+                            <p>73&nbsp&nbsp</p>
+                            <p class="textlightgray"> / &nbsp100</p>
+                        </div>
                     </div>
                 </div>
-                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
-                    <div class="flex Orangeyyellow">
-                        <img src="./assets/images/icon-memory.svg" alt="">
-                        <p class="font-normal">Memory</p>
-                    </div>
-                    <div class="flex">
-                        <p>92&nbsp&nbsp</p>
-                        <p class="textlanvender"> / &nbsp100</p>
-                    </div>
-                </div>
-                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
-                    <div class="flex Greenteal">
-                        <img src="./assets/images/icon-verbal.svg" alt="">
-                        <p class="font-normal">Verbal</p>
-                    </div>
-                    <div class="flex">
-                        <p>61&nbsp&nbsp</p>
-                        <p class="textlanvender"> / &nbsp100</p>
-                    </div>
-                </div>
-                <div class="flex justify-between bg-[#ff575711] p-3 rounded-lg mb-4">
-                    <div class="flex Cobaltblue">
-                        <img src="./assets/images/icon-visual.svg" alt="">
-                        <p class="font-normal">visual</p>
-                    </div>
-                    <div class="flex">
-                        <p>73&nbsp&nbsp</p>
-                        <p class="textlanvender"> / &nbsp100</p>
-                    </div>
-                </div>
-                <button class="w-full textpale bggray rounded-xl">Continue</button>
+                
+                <button class="w-full textpale bggray rounded-full p-3 mt-3 text-lg">Continue</button>
             </div>
             
         </div>

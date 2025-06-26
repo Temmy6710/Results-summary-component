@@ -25,6 +25,9 @@
 .textgray{
     color: hsl(224, 30%, 27%);
 }
+.textlightgray{
+    color: hsla(224, 30%, 27%, 0.363);
+}
 .bggray{
     background-color: hsl(224, 30%, 27%);
 }
